@@ -13,7 +13,7 @@ The application consists of two main pages:
 Video for Demo:
 
 <video width="600" controls>
-  <source src="https://path-to-your-video/homepage_video.mp4" type="video/mp4">
+  <source src="./homepage_video.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
@@ -22,7 +22,7 @@ Video for Demo:
 Video for Demo:
 
 <video width="600" controls>
-  <source src="https://path-to-your-video/profile_video.mp4" type="video/mp4">
+  <source src="./profile_video.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
