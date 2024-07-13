@@ -10,18 +10,12 @@ The application consists of two main pages:
 
 1. **Home Page (`/`)** [open this link](https://frontend-simple-social-app-reda-achouhads-projects.vercel.app/): This page functions similarly to a Facebook feed, displaying posts from various users. Users can scroll through the feed to see posts, images, and other content shared by others.
 
-Video for Demo:
-[video](https://www.youtube.com/watch?v=T4H0jIfo4TI)
+
 
 
 2. **Profile Page (`/profile`)** [open this link](https://frontend-simple-social-app-reda-achouhads-projects.vercel.app/profile): This page represents the user's profile. It includes information about the user, such as their name, profile picture, and a list of their posts and his friends. Users can view and manage their personal information and content on this page.
 
-Video for Demo:
 
-<video width="600" controls>
-  <source src="./profile_video.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
 
 ## Installation
 
