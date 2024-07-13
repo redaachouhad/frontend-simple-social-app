@@ -11,7 +11,7 @@ The application consists of two main pages:
 1. **Home Page (`/`)** [open this link](https://frontend-simple-social-app-reda-achouhads-projects.vercel.app/): This page functions similarly to a Facebook feed, displaying posts from various users. Users can scroll through the feed to see posts, images, and other content shared by others.
 
 Video for Demo:
-
+[video](https://www.youtube.com/watch?v=T4H0jIfo4TI)
 <video width="600" controls>
   <source src="https://www.youtube.com/watch?v=T4H0jIfo4TI" type="video/mp4">
   Your browser does not support the video tag.
