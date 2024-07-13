@@ -2,7 +2,11 @@
 
 ## Project Description
 
-This is a simple frontend project for a social media application built with [React](https://react.dev/) and deployed in [Vercel](https://vercel.com/). The application consists of two main pages:
+This is a simple frontend project for a social media application built with [React](https://react.dev/) and deployed in [Vercel](https://vercel.com/). 
+
+the link to the project in Vercel: [https://frontend-simple-social-app-reda-achouhads-projects.vercel.app/](https://frontend-simple-social-app-reda-achouhads-projects.vercel.app/)
+
+The application consists of two main pages:
 
 1. **Home Page (`/`)** [open this link](https://frontend-simple-social-app-reda-achouhads-projects.vercel.app/): This page functions similarly to a Facebook feed, displaying posts from various users. Users can scroll through the feed to see posts, images, and other content shared by others.
 
