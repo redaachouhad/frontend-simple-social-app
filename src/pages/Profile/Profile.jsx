@@ -23,7 +23,7 @@ export default function Profile() {
             />
 
             <div className="profileWrapperSubUserDesc">
-              <h3>Ahmed Ali</h3>
+              <h3>Reda Achouhad</h3>
               <p>Hello World !</p>
             </div>
           </div>
