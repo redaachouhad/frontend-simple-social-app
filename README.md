@@ -13,6 +13,7 @@ The application consists of two main pages:
 ![Demo Screenshot](homepage.jpeg)
 
 2. **Profile Page (`/profile`)** [open this link](https://frontend-simple-social-app-reda-achouhads-projects.vercel.app/profile): This page represents the user's profile. It includes information about the user, such as their name, profile picture, and a list of their posts and his friends. Users can view and manage their personal information and content on this page.
+   
 ![Demo Screenshot](profile_page.jpeg)
 
 
