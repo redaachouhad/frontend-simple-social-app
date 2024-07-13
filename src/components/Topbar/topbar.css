@@ -1,0 +1,163 @@
+.topbar {
+  width: 100%;
+  height: 60px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.topbarWrapper {
+  width: 100%;
+  height: 100%;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(22, 34, 129);
+  gap: 10px;
+}
+
+.topbarLeft {
+  flex: 4;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.topbarLeftIcon {
+  font-size: 30px !important;
+  color: white;
+}
+
+.topbarLogo {
+  font-size: 30px;
+  font-weight: 600;
+  color: white;
+}
+
+.topbarCenter {
+  flex: 5;
+}
+
+.topbarCenterSearch {
+  background-color: white;
+  padding: 3px 5px;
+  display: flex;
+  align-items: center;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+}
+
+.topbarCenterSearchIcon {
+  font-size: 25px !important;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+.topbarCenterSearchInput {
+  width: 89%;
+  outline: none;
+  border: none;
+}
+
+.topbarRight {
+  flex: 6;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.topbarRightLinks {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+.topbarRightLink {
+  font-size: 15px;
+  color: white;
+  cursor: pointer;
+  position: relative;
+}
+
+.topbarRightLink::before {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 100%;
+  padding-bottom: 2px;
+  top: 0px;
+  left: 0px;
+  border: 2px solid transparent;
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+}
+
+.topbarRightLink:hover:before {
+  border-bottom: 2px solid white;
+  width: 100%;
+  transition: all 0.4s ease;
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -ms-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+}
+
+.topbarRightIcons {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.topbarRightIconItem {
+  position: relative;
+}
+
+.topbarRightIcon {
+  color: white;
+  font-size: 25px !important;
+  cursor: pointer;
+}
+
+.topbarRightLinkTag {
+  position: absolute;
+  color: white;
+  font-size: 12px;
+  width: 12px;
+  height: 12px;
+  background-color: red;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: -3px;
+  right: -3px;
+}
+
+.topbarRightProfile {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.topbarRightProfileImg {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  object-fit: cover;
+}

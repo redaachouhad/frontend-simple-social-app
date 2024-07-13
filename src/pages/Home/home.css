@@ -1,0 +1,28 @@
+.homeWrapper {
+  display: flex;
+  width: 100%;
+  height: calc(100vh - 60px);
+}
+
+.homeWrapperSub {
+  flex: 9.5;
+  display: flex;
+  overflow-y: scroll;
+}
+
+.homeWrapperSub::-webkit-scrollbar {
+  width: 5px;
+}
+
+.homeWrapperSub::-webkit-scrollbar-thumb {
+  background-color: rgb(194, 169, 169);
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+.homeWrapperSub::-webkit-scrollbar-track {
+  background-color: white;
+}

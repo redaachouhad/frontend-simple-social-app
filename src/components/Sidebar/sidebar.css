@@ -1,0 +1,92 @@
+.sidebar {
+  flex: 3;
+  height: calc(100vh - 60px);
+  overflow-y: scroll;
+  position: sticky;
+  top: 50px;
+}
+
+.sidebar::-webkit-scrollbar {
+  width: 5px;
+}
+
+.sidebar:hover::-webkit-scrollbar-thumb {
+  background-color: rgb(194, 169, 169);
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+.sidebar::-webkit-scrollbar-track {
+  background-color: white;
+}
+
+.sidebarWrapper {
+  width: 100%;
+  height: 100%;
+  padding: 0px 20px;
+}
+
+.sidebarListOptions {
+  list-style: none;
+}
+
+.sidebarOption {
+  margin: 20px 0px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.sidebarOptionIcon {
+  margin-right: 10px;
+  font-size: 30px !important;
+}
+
+.sidebarOptionName {
+  font-size: 17px;
+}
+
+.sidebarButton {
+  padding: 10px 30px;
+  font-size: 15px;
+  font-weight: 600;
+  border: 0;
+  background-color: rgb(195, 226, 216);
+  border-radius: 7px;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  -o-border-radius: 7px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.sidebarListFriends {
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebarHr {
+  margin-bottom: 20px;
+}
+
+.sidebarFriend {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.sidebarFriendImg {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  object-fit: cover;
+  margin-right: 20px;
+}
