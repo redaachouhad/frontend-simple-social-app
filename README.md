@@ -22,13 +22,6 @@ To run this project locally, follow these steps:
    ```bash
    git clone https://github.com/your-username/social-media-app.git
 
-
-
-
-
-
-
-
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
