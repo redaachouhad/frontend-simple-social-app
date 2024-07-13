@@ -27,7 +27,7 @@ export default function Topbar() {
               Homepage
             </a>
             <a className="topbarRightLink" href="/profile">
-              Timeline
+              Profile
             </a>
           </div>
           <div className="topbarRightIcons">
