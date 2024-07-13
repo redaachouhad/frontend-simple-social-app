@@ -13,7 +13,7 @@ The application consists of two main pages:
 Video for Demo:
 
 <video width="600" controls>
-  <source src="./homepage_video.mp4" type="video/mp4">
+  <source src="https://www.youtube.com/watch?v=T4H0jIfo4TI" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
