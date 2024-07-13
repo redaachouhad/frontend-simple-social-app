@@ -12,10 +12,7 @@ The application consists of two main pages:
 
 Video for Demo:
 [video](https://www.youtube.com/watch?v=T4H0jIfo4TI)
-<video width="600" controls>
-  <source src="https://www.youtube.com/watch?v=T4H0jIfo4TI" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+
 
 2. **Profile Page (`/profile`)** [open this link](https://frontend-simple-social-app-reda-achouhads-projects.vercel.app/profile): This page represents the user's profile. It includes information about the user, such as their name, profile picture, and a list of their posts and his friends. Users can view and manage their personal information and content on this page.
 
