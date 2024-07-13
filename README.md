@@ -8,12 +8,6 @@ This is a simple frontend project for a social media application built with Reac
 
 2. **Profile Page (`/profile`)**: This page represents the user's profile. It includes information about the user, such as their name, profile picture, and a list of their posts. Users can view and manage their personal information and content on this page.
 
-## Features
-
-- **Routing**: Utilizes `react-router-dom` for navigation between the Home and Profile pages.
-- **Component-Based Architecture**: Each page and component is modular, making the application scalable and maintainable.
-- **Responsive Design**: The application is designed to be responsive, ensuring a good user experience on both desktop and mobile devices.
-
 ## Installation
 
 To run this project locally, follow these steps:
@@ -21,6 +15,26 @@ To run this project locally, follow these steps:
 1. Clone the repository:
    ```bash
    git clone https://github.com/your-username/social-media-app.git
+
+2. Navigate to the project directory:
+   ```bash
+   cd social-media-app
+
+3. Install the dependencies:
+   ```bash
+   npm install
+   
+4. Start the development server:
+   ```bash
+   npm start
+   
+5. Open your browser and navigate to http://localhost:3000 to see the app in action.
+
+
+
+
+
+
 
 # Getting Started with Create React App
 
